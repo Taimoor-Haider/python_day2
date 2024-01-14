@@ -1,0 +1,22 @@
+Value types are immutable and have different address in memeory --id()
+Reference types are array and objects --- is --> False
+For List (To get the index and value at same time) --> enumerate()
+For Objects (To get key-value pairs) --> object.items()
+For Objects (We also use the --->enumerate) to get the array with indexes and values at that indexes
+is --> True for value types
+in --> Used to check wheather something is in the iterable
+not --> 2 not in list
+and --> Both conditions are True
+or --> any one condition is True
+grouping condition using paranthesies
+No switch-case statement in python
+Use Range function for for loop to have both the element and the index
+range(10) --> starts from 0 and ends at 9 (10 is exclusive)
+range(5,10) --> starts from 5 and ends at 9 (last number is exclusive)
+range(1,10,2) --> starts from 1 and ends at 9 (increament by 2)
+List Comprehension--> el*2 for el in list
+separator_string.join(iterable)
+string.split(separator)
+Dict Comprehension 
+stats=[('age',20),('height',180),('weight',80)]
+stats_dict={key:value for (key,value) in stats}
