@@ -60,4 +60,11 @@ for index in range(len(list)):
     print(type(list[index]))
 
 
-    
+def unlimited_arguments(*args):
+    #print(type(args))  type --> tuple
+    for arguments in args:
+        print(arguments)
+
+
+unlimited_arguments(*[1,2,3,4])
+print('{} {} {} {} {} {}'.format(*[1,2,3,4,5,6]))

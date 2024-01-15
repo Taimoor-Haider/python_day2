@@ -20,3 +20,4 @@ string.split(separator)
 Dict Comprehension 
 stats=[('age',20),('height',180),('weight',80)]
 stats_dict={key:value for (key,value) in stats}
+Destructuring is referred to as Unpacking
